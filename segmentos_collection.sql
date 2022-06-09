@@ -29,7 +29,7 @@ db.createCollection("segmentos", {
          }
         }
     },
-validationAction: "warn",
+validationAction: "error",
 validationLevel: "strict",
 }
 );

@@ -84,6 +84,6 @@ validator:{
         },
     }
 },
-validationAction: "warn",
+validationAction: "error",
 validationLevel: "strict",
 });
