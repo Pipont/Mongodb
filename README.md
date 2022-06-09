@@ -1,5 +1,4 @@
 # Mongodb
-GitHub Desktop tutorial repository
 Course: Database design
 Student: Pedro Soto 
 Classroom: CC44 
