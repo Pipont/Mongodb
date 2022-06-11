@@ -63,7 +63,7 @@ validator:{
                 uniqueItems: true,
                 items:{
                     bsonType: "object",
-                    required: ["curso", "fecha_inscripcion", "estado","progreso"],
+                    required: ["curso", "_id","progreso", "fecha_inscripcion", "estado"],
                 }
             },
             apoderado:{
