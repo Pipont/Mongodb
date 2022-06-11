@@ -3,7 +3,7 @@ db.createCollection("usuarios", {
 validator:{
     $jsonSchema: {
         bsonType: "object",
-        required: ["_id","nombre", "correo", "telefono","localizacion","segmento_id"],
+        required: ["_id","nombre", "apellido", "sexo", "correo", "cursos_inscrito", "apoderado", "telefono", "localizacion","segmento_id"],
         properties: {
             _id:{
                 bsonType: "string",
