@@ -3,7 +3,7 @@ db.createCollection("temas", {
         $jsonSchema:{
             bsonType: "object",
             description: "Document describing temas",
-            required: ["nombre", "descripcion", "unidades", "recursos"],
+            required: ["nombre", "descripcion", "examenes", "recursos"],
             properties:{
                 nombre: {
                 bsonType: "string",
