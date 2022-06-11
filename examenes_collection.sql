@@ -8,8 +8,12 @@ db.createCollection("examenes",{
             "_id": {
                 bsonType: "string",
                 description: "id must be a string and is required",
-
             },
+            "descripcion":{
+                bsonType: "string",
+                description: "descripcion must be a string and is required",     
+             },
+                    
             "peso":{
                 bsonType: "int",
                 description: "peso must be a int and is required",
