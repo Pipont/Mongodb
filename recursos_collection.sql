@@ -23,8 +23,7 @@ db.createCollection("recursos",{
             },
             "enlace":{
                 bsonType: "string",
-                pattern: ".com",
-                description: "enlace must be a string with .com pattern",
+                description: "enlace must be a string and is required",
             }
         }
     }
