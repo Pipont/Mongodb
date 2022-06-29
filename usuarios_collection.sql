@@ -52,8 +52,8 @@ validator:{
             },
             telefono:{
                 bsonType: "int",
-                miniun: 900000000,
-                maximun: 999999999,
+                minium: 900000000,
+                maximum: 999999999,
                 description: "telefono must be an int",
             },
             cursos_inscrito: {
